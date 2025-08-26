@@ -9,8 +9,9 @@ main {
     justify-content: center;
     align-items: center;
     width: 100%;
-          min-height: 100vh;
-    background-color: rgb(255, 255, 255);
+    min-height: 100vh;
+    min-width: 40%;
+
 
 
 }
@@ -35,6 +36,7 @@ main.noche{
     stroke: white;
     cursor: pointer;
 }
+
 /*Contenedor Padre Para formato Movil*/
 .contenedor {
     width: 100%;
@@ -44,7 +46,6 @@ main.noche{
     flex-direction: column;
     gap: 10px;
     padding: 10px;
-        box-shadow: 1px 1px 2px 1px rgba(92, 92, 92, 0.4);
 
 }
 /*Contenido de los div*/
@@ -134,7 +135,10 @@ img {
     width: 100%;
     
 }
-  
+  .icon{
+    width: 40px;
+    height: 40px;
+}
 
 }
 /*Tamaño de Computadoras y pantallas grandes*/
@@ -142,5 +146,9 @@ img {
 @media(min-width: 1240px){
 .contenedor{
     width: 40%;
+}
+.icon{
+    width: 40px;
+    height: 40px;
 }
 }
